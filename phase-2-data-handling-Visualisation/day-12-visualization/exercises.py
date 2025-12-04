@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv("../data/habits.csv")
+df = pd.read_csv("../../data/habits.csv")
 
 # Clean sleep column (if needed)
 if 'sleep' in df.columns:
